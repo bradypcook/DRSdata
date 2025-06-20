@@ -50,11 +50,11 @@ jobs:
           fi
 
       - name: Install dependencies
-        working-directory: ./DRSdata
+        working-directory: ./drsdata
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
 
       - name: Build with Next.js
-        working-directory: ./DRSdata
+        working-directory: ./drsdata
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
 
       - name: Setup Node
