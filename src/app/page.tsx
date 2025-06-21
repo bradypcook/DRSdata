@@ -5,7 +5,7 @@ import MainPage from './components/MainPage'
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Home",
+  title: "DRSData - Home",
 }
 
 export default function HomePage() {
