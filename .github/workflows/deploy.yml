@@ -46,7 +46,7 @@ jobs:
 
       - name: Build Next.js site
         working-directory: ./drsdata
-        run: npx next build && npx next export
+        run: npx next build
 
       - name: Upload static site
         uses: actions/upload-pages-artifact@v3
